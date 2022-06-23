@@ -1,0 +1,30 @@
+#root .top {
+    -fx-background-color: #dadada;
+}
+
+#root > .top > .left .user-image {
+    -fx-image: url(../img/avatar.png);
+}
+
+#root > .left {
+    -fx-min-width: 200px;
+    -fx-background-color: #c4c4c4;
+    -fx-padding: 10px;
+}
+
+#root > .left .separator {
+    -fx-background-color: #000000;
+    -fx-background-radius: 99px;
+}
+
+#root > .left .btn-link {
+    -fx-alignment: center-left;
+}
+
+#root > .left .btn-link.active {
+    -fx-text-fill: #00936e;
+}
+
+#root .loutre {
+    -fx-border-radius: 15px;
+}

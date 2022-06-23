@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="482.0" prefWidth="798.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label text="Espèce">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="especeComboBox" prefHeight="51.0" prefWidth="693.0">
+               <VBox.margin>
+                  <Insets left="30.0" />
+               </VBox.margin>
+            </ComboBox>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </VBox>
+      <VBox layoutX="10.0" layoutY="110.0" prefHeight="200.0" prefWidth="798.0">
+         <children>
+            <Label fx:id="sexeCombobox1" text="Température de l'eau">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="temperatureInput" prefHeight="41.0" prefWidth="542.0">
+               <VBox.margin>
+                  <Insets left="30.0" right="50.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </VBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="55.0" prefWidth="214.0">
+               <children>
+                  <Label fx:id="sexeCombobox11" prefHeight="30.0" prefWidth="191.0" text="Nombre adultes">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nbrAdulte" prefHeight="41.0" prefWidth="542.0" />
+               </children>
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="55.0" prefWidth="214.0">
+               <children>
+                  <Label fx:id="sexeCombobox111" prefHeight="30.0" prefWidth="191.0" text="Nombre amplexus">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nbrAmplexus" prefHeight="41.0" prefWidth="542.0" />
+               </children>
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="55.0" prefWidth="214.0">
+               <children>
+                  <Label fx:id="sexeCombobox112" prefHeight="30.0" prefWidth="191.0" text="Nombre Ponte">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nbrPonte" prefHeight="41.0" prefWidth="542.0" />
+               </children>
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="55.0" prefWidth="214.0">
+               <children>
+                  <Label fx:id="sexeCombobox113" prefHeight="30.0" prefWidth="191.0" text="Nombre tetard">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nbrTetard" prefHeight="41.0" prefWidth="542.0" />
+               </children>
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="55.0" prefWidth="214.0">
+               <children>
+                  <Label fx:id="sexeCombobox114" prefHeight="30.0" prefWidth="191.0" text="Météo ciel">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="meteoCiel" prefHeight="51.0" prefWidth="693.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="55.0" prefWidth="214.0">
+               <children>
+                  <Label fx:id="sexeCombobox1141" prefHeight="30.0" prefWidth="191.0" text="Météo température">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="meteoTemp" prefHeight="51.0" prefWidth="693.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="55.0" prefWidth="214.0">
+               <children>
+                  <Label fx:id="sexeCombobox1142" prefHeight="30.0" prefWidth="191.0" text="Météo vent">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="meteoVent" prefHeight="51.0" prefWidth="693.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="55.0" prefWidth="214.0">
+               <children>
+                  <Label fx:id="sexeCombobox1143" prefHeight="30.0" prefWidth="191.0" text="Météo pluie">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="meteoPluie" prefHeight="51.0" prefWidth="693.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox prefHeight="325.0" prefWidth="743.0">
+         <children>
+            <Label text="Zone Humide">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox prefHeight="100.0" prefWidth="367.0">
+                           <children>
+                              <Label fx:id="sexeCombobox115" prefHeight="30.0" prefWidth="191.0" text="Profondeur">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="zhProfondeur" prefHeight="41.0" prefWidth="542.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox prefHeight="100.0" prefWidth="347.0">
+                           <children>
+                              <Label fx:id="sexeCombobox1151" prefHeight="30.0" prefWidth="191.0" text="Surface">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="zhSurface" prefHeight="41.0" prefWidth="301.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox prefHeight="55.0" prefWidth="214.0">
+                           <children>
+                              <Label fx:id="sexeCombobox1144" prefHeight="30.0" prefWidth="191.0" text="Type mare">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox fx:id="zhTypeMare" prefHeight="51.0" prefWidth="693.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox prefHeight="55.0" prefWidth="214.0">
+                           <children>
+                              <Label fx:id="sexeCombobox11441" prefHeight="30.0" prefWidth="191.0" text="Type pente">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox fx:id="zhTypePente" prefHeight="51.0" prefWidth="693.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox prefHeight="55.0" prefWidth="214.0">
+                           <children>
+                              <Label fx:id="sexeCombobox11442" prefHeight="30.0" prefWidth="191.0" text="Type ouverture">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox fx:id="zhOuverture" prefHeight="51.0" prefWidth="693.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label text="Végétation">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <VBox fx:id="vegetationList" prefHeight="200.0" prefWidth="100.0" />
+         </children>
+      </VBox>
+   </children>
+</VBox>

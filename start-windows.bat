@@ -1,0 +1,1 @@
+call java --module-path lib-windows --add-modules ALL-MODULE-PATH -jar bin/sae-pnr-0.1.0.jar

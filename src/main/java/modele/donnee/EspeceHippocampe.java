@@ -1,0 +1,13 @@
+package modele.donnee;
+
+/** une espèce hippocampe */
+public enum EspeceHippocampe {
+	/** SYNGNATHUS_ACUS */
+	SYNGNATHUS_ACUS,
+	/** HIPPOCAMPUS_GUTTULATUS */
+	HIPPOCAMPUS_GUTTULATUS,
+	/** HIPPOCAMPUS_HIPPOCAMPUS */
+	HIPPOCAMPUS_HIPPOCAMPUS,
+	/** ENTERURUS_AEQUOREUS */
+	ENTERURUS_AEQUOREUS
+}

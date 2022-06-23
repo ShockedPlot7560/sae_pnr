@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.sothawo.mapjfx.MapView?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="678.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <children>
+            <HBox prefHeight="46.0" prefWidth="798.0">
+               <children>
+                  <Button mnemonicParsing="false" styleClass="btn-secondary" text="Retour liste espèces" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <TabPane fx:id="tabPane" prefHeight="279.0" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS" />
+            <MapView fx:id="map" prefHeight="300.0" prefWidth="379.0" />
+         </children>
+      </VBox>
+   </content>
+   <stylesheets>
+      <URL value="@../../css/dashboard.css" />
+      <URL value="@../../css/common.css" />
+   </stylesheets>
+</ScrollPane>

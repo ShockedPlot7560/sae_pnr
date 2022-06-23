@@ -1,0 +1,68 @@
+.combo-box {
+    -fx-border-color: #000;
+    -fx-border-style: solid;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 999px;
+    -fx-border-radius: 999px;
+    -fx-min-height:35px;
+    -fx-font-size: 15px;
+}
+
+.button,
+.btn{
+    -fx-font-size: 15px;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 999px;
+    -fx-border-radius: 999px;
+    -fx-padding: 10px 25px;
+}
+
+.button {
+    -fx-effect: dropshadow(gaussian, #00000040, 4, 0.5, 0, 4);
+}
+
+.button:pressed {
+    -fx-effect: none;
+    -fx-translate-y: 4;
+}
+
+.btn-primary {
+    -fx-text-fill: #fff;
+    -fx-background-color: #00936e;
+}
+
+.btn-secondary {
+    -fx-text-fill: #fff;
+    -fx-background-color: #03b9bd;
+}
+
+.btn-danger {
+    -fx-text-fill: #fff;
+    -fx-background-color: #dc3545;
+}
+
+.btn-link {
+    -fx-background-color: #ffffff00;
+
+    -fx-padding: 5px;
+    -fx-effect: none;
+}
+
+.btn-link:pressed {
+    -fx-translate-y: 0;
+}
+
+.label.h1 {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-font-size: 15px;
+    -fx-background-radius: 999px;
+    -fx-padding: 10px 25px;
+    -fx-border-color: #000;
+    -fx-border-style: solid;
+    -fx-min-height:35px;
+    -fx-border-radius: 999px;
+}

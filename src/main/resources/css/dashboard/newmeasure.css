@@ -1,0 +1,8 @@
+.btn-danger {
+    -fx-padding: 5 10;
+}
+
+.btn-observer {
+    -fx-border-color: #000;
+    -fx-border-style: solid;
+}
