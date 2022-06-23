@@ -1,0 +1,14 @@
+unnamed package
+controleur
+controleur.dashboard
+controleur.dashboard.newmeasureattribute
+modele
+modele.bdd
+modele.bdd.table
+modele.donnee
+modele.exception
+modele.ihm
+modele.ihm.dashboard
+modele.traitement
+utils
+vue
